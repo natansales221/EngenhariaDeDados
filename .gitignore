@@ -1,0 +1,35 @@
+# Credenciais e configurações locais
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Ambientes virtuais, caso sejam criados acidentalmente
+.venv/
+venv/
+env/
+
+# Dados gerados pelo pipeline
+data/raw/*
+data/processed/*
+data/rejected/*
+
+# Mantém somente a estrutura das pastas
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/rejected/.gitkeep
+
+# Logs gerados
+logs/*
+!logs/.gitkeep
+
+# VS Code e outras IDEs
+.vscode/
+.idea/
+
+# Sistema operacional
+Thumbs.db
+.DS_Store

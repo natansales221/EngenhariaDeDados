@@ -1,0 +1,7 @@
+﻿requests
+pandas
+SQLAlchemy
+pyodbc
+python-dotenv
+tenacity
+pytest
