@@ -1,5 +1,7 @@
 # Pipeline ETL de Cotações PTAX
 
+[![Testes do pipeline ETL](https://github.com/natansales221/EngenhariaDeDados/actions/workflows/tests.yml/badge.svg)](https://github.com/natansales221/EngenhariaDeDados/actions/workflows/tests.yml)
+
 Pipeline de Engenharia de Dados desenvolvido em Python para extrair cotações de moedas da API pública PTAX do Banco Central do Brasil, transformar e validar os dados e carregá-los de forma incremental em um banco SQL Server.
 
 O projeto foi estruturado para demonstrar conceitos de Engenharia de Dados como ingestão via API, camadas de dados, qualidade, staging, carga incremental, idempotência, controle de execuções e testes automatizados.
